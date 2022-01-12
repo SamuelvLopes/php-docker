@@ -6,6 +6,6 @@ $fileName="$message.txt";
 $file= fopen("./messages/$fileName","x");
 fwrite($file,$message);
 fclose($file);
-echo 'boi';
+echo 'teste';
 
 ?>
