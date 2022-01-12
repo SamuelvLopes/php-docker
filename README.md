@@ -26,3 +26,8 @@ aprendendo docker
 ### docker volume ls
 ### docker run -d -p 801:80 --name boi99 --rm -v C:\Users\samu\Desktop\mesagese:/var/www/html/messages phpteste:teste3 (Bind Mount)
 ### docker run -d -p 801:80 --name boi99 --rm -v C:\Users\samu\Desktop\php_teste:/var/www/html phpteste:teste3 (Bind Mount pode ser usado pra editar)
+### docker volume ls
+### docker create volume volumeteste
+### docker volume inspect volumeteste 
+### docker volume rm volumeteste
+### docker volume prune
