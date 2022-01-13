@@ -31,3 +31,4 @@ aprendendo docker
 ### docker volume inspect volumeteste 
 ### docker volume rm volumeteste
 ### docker volume prune
+### docker run -d -p 801:80 --name boi99 --rm -v C:\Users\samu\Desktop\php_teste:/var/www/html:ro phpteste:teste3 (SOMENTE LEITURA)
