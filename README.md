@@ -32,4 +32,9 @@ aprendendo docker
 ### docker volume rm volumeteste
 ### docker volume prune
 ### docker run -d -p 801:80 --name boi99 --rm -v C:\Users\samu\Desktop\php_teste:/var/www/html:ro phpteste:teste3 (SOMENTE LEITURA)
-### 
+###  os tipos de reder do docker são Bridge(Default),Host(Comunicação host-docker), Macvlan(utiliza o mac adress), None(remove a rede) e Plugins
+### docker network ls
+### docker network create redeteste
+### docker network create -d macvlan redetestemacvlan
+### docker network rm redeteste
+### docker network prune
